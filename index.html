@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated-Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <video class="background-video" autoplay loop muted plays-inline src="videos/galaxy.mp4"
+            type="video/mp4"></video>
+
+        <header>
+            <div class="left">
+                <img src="" alt="" />
+                <h1><span style="color: #72a1d7">Rajesh</span>Code</h1>
+            </div>
+
+            <ul>
+                <li onclick="GotoAbout()"><a href="#">About</a></li>
+                <li onclick="GotoSkills()"><a href="#">Skills</a></li>
+                <li onclick="GotoProject()"><a href="#">Projects</a></li>
+            </ul>
+
+            <div class="box-icons">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://github.com/Rajeshgouda-143" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rajesh-kumar-gouda-055385375/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </header>
+
+        <div class="blackhole-box">
+            <video autoplay loop muted plays-inline src="videos/blackhole.mp4" type="video/mp4"></video>
+        </div>
+
+        <section class="hero">
+            <div class="hero-info autoBlur">
+                <div class="heroinfo-title autoDisplay">
+                    <i class="fa-brands fa-sketch"></i>
+                    FullStack Developer Portfolio
+                </div>
+
+                <h1>
+                    Providing <span class="gradient">the best </span>Project
+                    <span class="gradient">Experience</span>
+                </h1>
+
+                <p>
+                    I'am a FullStack Developer with Experience in Website and Software
+                    Development. Check out my and Skills.
+                </p>
+
+                <button onclick="GotoContact()"><i class="fa-regular fa-paper-plane"></i> Contact Me</button>
+            </div>
+
+            <div class="hero-vid-box">
+                <video class="autoBlur" autoplay loop muted plays-inline src="/videos/hero-video.mp4" type="video/mp4"></video>
+            </div>
+
+            <div class="scroll-down"></div>
+        </section>
+
+        <section class="info-section" id="about">
+            <h1 class="section-title autoDisplay">Hello, There👋</h1>
+            <div class="info-cards autoBlur">
+                <div class="card">
+                    <h1>Hii there, I'm Rajesh</h1>
+                    <p>
+                        With a 1 years of Internship Experience,I have skills in both
+                        frontend and backend development, Creating dynamic and responsive
+                        websites.
+                    </p>
+
+                    <img src="/images/grid1.png" alt="card-img" />
+                </div>
+
+                <div class="card">
+                    <h1>Tech Stack</h1>
+                    <p>
+                        I specialize in a veriety of language, framework, and tools that
+                        allow me to build robust and scalable applications.
+                    </p>
+
+                    <img src="/images/grid2.png" alt="card-img" />
+                </div>
+
+                <div class="card">
+                    <h1>I'm very flexible with time zone communications & locations</h1>
+                    <p>
+                        I am from Odisha but Currently lives in chennai and open to remote
+                        work worldwide.
+                    </p>
+
+                    <video autoplay loop muted plays-inline src="/videos/glob.mp4" type="video/mp4"></video>
+
+                    <button><i class="fa-solid fa-link"></i>Contact Me</button>
+                </div>
+
+                <div class="card">
+                    <h1>My Passion for Coding</h1>
+                    <p>
+                        I love solving problems and building things through code.
+                        programming is not just my profession it's my passion. I enjoy
+                        exploring new technologies, and enhancing my skills.
+                    </p>
+
+                    <img src="/images/grid4.png" alt="card-img" />
+                </div>
+            </div>
+        </section>
+
+        <section class="my-projects" id="project">
+            <h1 class="section-title autoDisplay">My Projects 🖥️</h1>
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video id="projectvideo1" src="/videos/project1.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+
+                <div class="project-info fadeInRight">
+                    <h1>Animated <span class="gradient">gaming </span> Website</h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                        ea exercitationem earum praesentium doloribus? Ab voluptates
+                        accusamus perspiciatis. Facere, in.
+                    </p>
+
+                    <button><i class="bx bx-link-external"></i>Website</button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video id="projectvideo2" src="/videos/project2.mp4"></video>
+                    <!-- <div class="hover-sign"></div> -->
+                </div>
+
+                <div class="project-info fadeInRight">
+                    <h1>Modern <span class="gradient">Portfolio</span> Website</h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+                        architecto consectetur sed repellendus perferendis odio recusandae
+                        ab? Et eius eum voluptas corrupti nobis in suscipit nihil neque
+                        voluptatem?
+                    </p>
+
+                    <button><i class="bx bx-link-external"></i>Website</button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video id="projectvideo3" src="/videos/project3.mp4"></video>
+                    <!-- <div class="hover-sign"></div> -->
+                </div>
+
+                <div class="project-info fadeInRight">
+                    <h1>Movie <span class="gradient">Landing</span> Page</h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, neque vero? Tempora atque reiciendis, minima
+                        ducimus ullam sapiente.
+                    </p>
+
+                    <button><i class="bx bx-link-external"></i>Website</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section" id="skills">
+            <h1 class="section-title autoDisplay">My Skills 💪</h1>
+
+            <div class="skills-box autoBlur">
+                <img class="skills-image" src="./images/digital brain (2).png" alt="skills-image" />
+
+                <div class="designer autoDisplay">
+                    <h1 class="gradient">
+                        Designer <i class="fa-solid fa-laptop"></i>
+                    </h1>
+
+                    <p>
+                        I have expertise in HTML,CSS,JavaScript and Design tools like
+                        Figma and Canva. My strength lies in blending aesthetic with
+                        functionality to create seamless user experiences.
+                    </p>
+                </div>
+
+                <div class="coder autoDisplay">
+                    <h1 class="gradient">Coder <i class="fa-solid fa-code"></i></h1>
+
+                    <p>
+                        I'm skilled in Python,HTML,CSS,JavaScript, and frameworks like
+                        React and Django. I also have experience with database management
+                        using Mysql and Oracle Database.
+                    </p>
+                </div>
+                <!-- /* slider work is pending here */ -->
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h1 class="section-title autoDisplay">Let's talk😊</h1>
+
+            <div class="social-box autoBlur">
+                <a href="#"><i class="fa-solid fa-phone-volume"></i> +91 9337261404</a>
+                <a href="#"><i class="fa-brands fa-telegram"></i>Contact Example.com</a>
+                <a href="https://www.linkedin.com/in/rajesh-kumar-gouda-055385375/" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                <a href="https://github.com/Rajeshgouda-143" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
+                
+
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-box autoBlur" id="contact">
+                <p>
+                    Now i'm looking for a job where i can contribute my skills to
+                    improve myself, along with company's growth. if there is any opening
+                    just contact me.
+                </p>
+
+                <p>FullName</p>
+                <input type="text" placeholder="Enter Your FullName" />
+
+                <p>Email Address</p>
+                <input type="email" placeholder="Enter Your Email" />
+
+                <p>Your Message</p>
+                <input class="input-message" type="text" placeholder="Share Your Thoughts..." />
+
+                <button><i class="fa-regular fa-paper-plane"></i><span class="gradient">Send Message</span></button>
+            </div>
+        </section>
+
+        <footer>
+            <h1>Copyright @ Rajesh, Made with ❤️ by Code With Rajesh </h1>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
